@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "restart": "watchman watch-del-all && watchman shutdown-server && expo-cli start --tunnel"
   },
   "dependencies": {
     "expo": "^45.0.0",
